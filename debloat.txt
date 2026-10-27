@@ -1,0 +1,10 @@
+# One package name per line. Lines starting with # are ignored.
+# Uncomment ONLY what you want disabled. Disabling is reversible: ./clean-tv.sh -r
+# Find package names with:  adb shell pm list packages -3   (user apps)
+#                           adb shell pm list packages       (all apps)
+# Do NOT disable launcher, settings, or Play Services packages.
+
+# Examples (uncomment to use; verify they exist on your TV first):
+# com.netflix.ninja
+# com.amazon.amazonvideo.livingroom
+# com.google.android.youtube.tvmusic
